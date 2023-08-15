@@ -1,0 +1,17 @@
+{
+  "name": "parcel-config-project",
+  "version": "1.0.0",
+  "description": "📦 Parcel and API Testing Project 🚀  Welcome to my playground for testing out the powers of Parcel, a lightning-fast module bundler. I'm diving into how Parcel streamlines the build and packaging process for my web applications. Beyond that, I'm integrating APIs to fetch real-time data and showcase it interactively on my site.",
+  "source": "src/index.js",
+  "scripts": {
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "posthtml-include": "^1.7.4"
+  }
+}
